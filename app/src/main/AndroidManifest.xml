@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.msit.portal"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+        <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Holo.Light.DarkActionBar" >
+        <activity
+            android:name=".NavDrawerActivity"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity
+            android:name=".ProfileActivity"
+            android:label="@string/title_activity_profile" >
+        </activity>
+        <activity
+            android:name=".FaqActivity"
+            android:label="@string/title_activity_faq" >
+        </activity>
+        <activity
+            android:name=".SemesterActivity"
+            android:label="Choose your Semester" >
+        </activity>
+        <activity
+            android:name=".SyllabusActivity"
+            android:label="Choose Branch" >
+        </activity>
+        <activity
+            android:name=".GuestNavDrawerActivity"
+            android:label="@string/title_activity_guest_nav_drawer" >
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/title_activity_home" >
+        </activity>
+        <activity
+            android:name=".EventsActivity"
+            android:label="@string/title_activity_events" >
+        </activity>
+        <activity
+            android:name=".CourseActivity"
+            android:label="@string/title_activity_course" >
+        </activity>
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps" >
+        </activity>
+        <activity
+            android:name=".AboutusActivity"
+            android:label="@string/title_activity_aboutus" >
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login" >
+        </activity>
+
+        <activity
+            android:name=".cseActivity2"
+            android:label="title_activity_cse_activity2" >
+        </activity>
+        <activity
+            android:name=".itActivity2"
+            android:label="title_activity_it_activity2" >
+        </activity>
+        <activity
+            android:name=".eeeActivity2"
+            android:label="title_activity_eee_activity2" >
+        </activity>
+        <activity
+            android:name=".eceActivity2"
+            android:label="title_activity_ece_activity2" >
+        </activity>
+
+    </application>
+
+</manifest>
